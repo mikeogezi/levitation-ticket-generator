@@ -1,7 +1,7 @@
 # Levitation Ticket Generator
 
 ## About
-This repository houses the CLI utilities which I used to generate tickets for the [Levitation 2018 Music Concert](https://levitationconcert.xyz). Each generated ticket has a unique QR code to uniquely identify each attendee.
+This repository houses the CLI utilities which I used to generate tickets for the [Levitation 2019 Music Concert](https://levitationconcert.xyz). Each generated ticket has a unique QR code to uniquely identify each attendee.
 
 ## Requirements
 * [Nodejs](https://nodejs.org/en/download/)
