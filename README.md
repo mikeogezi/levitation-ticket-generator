@@ -1,3 +1,4 @@
+![](./assets/levitation.png)
 # Levitation Ticket Generator
 
 ## About
