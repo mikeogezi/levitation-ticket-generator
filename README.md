@@ -33,6 +33,8 @@ This repository houses the CLI utilities which I used to generate tickets for th
     
         ![](./assets/ticket-with-qr-code-Levit82k19-4BDUOBOPM9.png)
 
+---
+
 2. `generateHTML.js` - This script builds a HTML which has all the tickets. After this HTML file is generated, open it up in Google Chrome or Safari then save it as a PDF.
     - Running this command will generate a HTML file and put it in the `tickets` directory
     - The `pages` argument tells the program the number of pages of tickets to generate. The default value is **1**
