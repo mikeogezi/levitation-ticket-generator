@@ -1,13 +1,21 @@
+let fs = require('fs')
+let path = require('path')
+    
 let QRCode = require('qrcode')
 let Jimp = require('jimp')
 
 let ticketCount = parseInt(process.argv[2]) || 5
-let clear = process.argv[3] == 'clear'
+let clear = process.argv[3] === 'clear'
+
+let requiredDirs = ['qr-codes', 'tickets'];
+for (let dir of requiredDirs) {
+    if (!fs.existsSync(dir)) {
+        fs.mkdirSync(dir);
+    }
+}
 
 if (clear) {
-    let fs = require('fs')
-    let path = require('path')
-    for (let dir of [ 'qr-codes', 'tickets' ]) {
+    for (let dir of requiredDirs) {
         fs.readdirSync(dir).forEach((filename) => {
             if (filename.endsWith('.png') || filename.endsWith('.html')) {
                 fs.unlinkSync(path.join(dir, filename))
