@@ -30,6 +30,7 @@ This repository houses the CLI utilities which I used to generate tickets for th
         ```
 
     - Generated ticket
+    
         ![](./assets/ticket-with-qr-code-Levit82k19-4BDUOBOPM9.png)
 
 2. `generateHTML.js` - This script builds a HTML which has all the tickets. After this HTML file is generated, open it up in Google Chrome or Safari then save it as a PDF.
@@ -45,8 +46,7 @@ This repository houses the CLI utilities which I used to generate tickets for th
         Generated HTML file (tickets/tickets-SJHMU.html) with 5 tickets
         ```
 
-    - Generated PDF
-        ![](./assets/Levitation Tickets Batch #SJHMU.pdf)
+    - Generated [PDF](./assets/Levitation Tickets Batch #SJHMU.pdf)
 
 ## Ticket formats
 ![](./assets/plain-ticket-b.png)
