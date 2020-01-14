@@ -35,7 +35,8 @@ This repository houses the CLI utilities which I used to generate tickets for th
     - The `pages` argument tells the program the number of pages of tickets to generate. The default value is **1**
     - The `clear` argument tells the program to delete any tickets that had previously been generated that are still in the `tickets` directory
     - The `plainTicketPath` argument tells the program the path to the base ticket image. If you're supplying this argument, then you must use `clear` or `no-clear` for the previous argument
-    - `node generateHTML.js [pages=1] [clear|no-clear] [plainTicketPath=assets/plain-ticket-b.png]`
+    - Usage: `node generateHTML.js [pages=1] [clear|no-clear] [plainTicketPath=assets/plain-ticket-b.png]`
+    
         ```
         $ node generateHTML.js
         Generating 1 page
