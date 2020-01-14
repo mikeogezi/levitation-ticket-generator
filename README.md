@@ -4,6 +4,9 @@
 ## About
 This repository houses the CLI utilities which I used to generate tickets for the [Levitation 2019 Music Concert](https://levitationconcert.xyz). Each generated ticket has a unique QR code to uniquely identify each attendee.
 
+## Related Projects
+* The [Levitation Online Ticket](https://github.com/okibeogezi/levitation-online-ticket) application automatically mails a PDF ticket to a buyer whenever a successful paystack payment is made
+
 ## Requirements
 * [Nodejs](https://nodejs.org/en/download/)
 * Run `npm install` to download and install the required dependencies; Jimp and QRCode
