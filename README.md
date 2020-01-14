@@ -48,7 +48,7 @@ This repository houses the CLI utilities which I used to generate tickets for th
         Generated HTML file (tickets/tickets-SJHMU.html) with 5 tickets
         ```
 
-    - Generated [PDF](./assets/Levitation Tickets Batch #SJHMU.pdf)
+    - Generated [PDF]("./assets/Levitation Tickets Batch #SJHMU.pdf")
 
 ## Ticket formats
 ![](./assets/plain-ticket-b.png)
