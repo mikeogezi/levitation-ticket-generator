@@ -3,6 +3,10 @@
 ## About
 This repository houses the CLI utilities which I used to generate tickets for the [Levitation 2018 Music Concert](https://levitationconcert.xyz). Each generated ticket has a unique QR code to uniquely identify each attendee.
 
+## Requirements
+* [Nodejs](https://nodejs.org/en/download/)
+* Run `npm install` to download and install the required dependencies; Jimp and QRCode
+
 ## Usage
 1. `index.js` - This script generates the tickets by generating a QR code image then compositing it on the base ticket image.
     - Running this command will generate tickets and put them in the `tickets` directory
