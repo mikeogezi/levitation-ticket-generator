@@ -31,7 +31,7 @@ This repository houses the CLI utilities which I used to generate tickets for th
 
     - Generated ticket
     
-        ![](./assets/ticket-with-qr-code-Levit82k19-4BDUOBOPM9.png)
+        ![](https://github.com/okibeogezi/levitation-ticket-generator/blob/master/assets/Levitation%20Tickets%20Batch%20%23SJHMU.pdf)
 
 ---
 
