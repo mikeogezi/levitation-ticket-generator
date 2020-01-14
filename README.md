@@ -31,7 +31,7 @@ This repository houses the CLI utilities which I used to generate tickets for th
 
     - Generated ticket
     
-        ![](https://github.com/okibeogezi/levitation-ticket-generator/blob/master/assets/Levitation%20Tickets%20Batch%20%23SJHMU.pdf)
+        ![](./assets/ticket-with-qr-code-Levit82k19-4BDUOBOPM9.png)
 
 ---
 
@@ -48,7 +48,7 @@ This repository houses the CLI utilities which I used to generate tickets for th
         Generated HTML file (tickets/tickets-SJHMU.html) with 5 tickets
         ```
 
-    - Generated [PDF]("./assets/Levitation Tickets Batch #SJHMU.pdf")
+    - Generated [PDF](https://github.com/okibeogezi/levitation-ticket-generator/blob/master/assets/Levitation%20Tickets%20Batch%20%23SJHMU.pdf)
 
 ## Ticket formats
 ![](./assets/plain-ticket-b.png)
